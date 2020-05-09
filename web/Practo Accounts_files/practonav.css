@@ -1,0 +1,828 @@
+@font-face {
+  font-family: 'MuseoSans500';
+  src: url("../fonts/museo-500/MuseoSans_500-webfont.eot");
+  src: url("../fonts/museo-500/MuseoSans_500-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/museo-500/MuseoSans_500-webfont.woff2") format("woff2"), url("../fonts/museo-500/MuseoSans_500-webfont.woff") format("woff"), url("../fonts/museo-500/MuseoSans_500-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.border-box, .practo_GlobalNavigation .navbar .nav-left, .practo_GlobalNavigation .navbar .nav-mid, .practo_GlobalNavigation .navbar .nav-right {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.cushion-left {
+  margin-left: 12px; }
+
+.btn-border {
+  display: inline-block;
+  border: 1px solid #4A4A4A;
+  background-color: transparent;
+  padding: 2px 0;
+  border-radius: 4px;
+  cursor: pointer; }
+  .btn-border a {
+    color: #4A4A4A !important; }
+  .btn-border:hover {
+    background-color: #3b99d9;
+    border: 1px solid #3b99d9; }
+    .btn-border:hover a {
+      color: #ffffff !important; }
+
+.btn a {
+  border: 1px solid #4A4A4A;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 2px;
+  color: #4A4A4A; }
+
+.practo_GlobalNavigation:before {
+  content: " ";
+  display: table; }
+
+.practo_GlobalNavigation:after {
+  content: " ";
+  display: table;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.practo_GlobalNavigation .navbar {
+  height: 56px;
+  background-color: #ffffff;
+  font-family: "MuseoSans500", "Open Sans";
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+  border-radius: 0; }
+  .practo_GlobalNavigation .navbar * {
+    box-sizing: border-box; }
+  .practo_GlobalNavigation .navbar .wrapper {
+    cursor: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px 0 47px; }
+  .practo_GlobalNavigation .navbar.consult .wrapper {
+    max-width: 100%; }
+  .practo_GlobalNavigation .navbar .clearfix {
+    display: block; }
+    .practo_GlobalNavigation .navbar .clearfix:before {
+      content: " ";
+      display: table; }
+    .practo_GlobalNavigation .navbar .clearfix:after {
+      content: " ";
+      display: table;
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0; }
+  .practo_GlobalNavigation .navbar a {
+    font-family: "MuseoSans500", "Open Sans", "Segoe UI", "Century Gothic", "Ubuntu", "Arial", sans-serif;
+    font-size: 14px;
+    text-decoration: none; }
+
+.no_scroll {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+  top: 0; }
+
+.push-down-body-desktop {
+  padding-top: 56px; }
+
+.practo_GlobalNavigation .navbar .nav-left, .practo_GlobalNavigation .navbar .nav-mid, .practo_GlobalNavigation .navbar .nav-right {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top; }
+
+.practo_GlobalNavigation .navbar .nav-left {
+  vertical-align: middle;
+  width: 300px;
+  box-sizing: border-box;
+  margin-top: 3px; }
+
+.practo_GlobalNavigation .navbar .nav-mid {
+  width: 48%; }
+  .practo_GlobalNavigation .navbar .nav-mid .srch-container {
+    height: 32px;
+    background-color: transparent;
+    border-radius: 4px; }
+
+.practo_GlobalNavigation .navbar .nav-right {
+  width: 255px;
+  float: right; }
+  .practo_GlobalNavigation .navbar .nav-right a.link {
+    color: #3b99d9;
+    text-align: center;
+    font-weight: normal;
+    text-transform: capitalize;
+    vertical-align: middle;
+    display: block;
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .practo_GlobalNavigation .navbar .nav-right a.link.reset_icon {
+      display: block;
+      padding: 6px 0; }
+
+.practo_GlobalNavigation .navbar .nav-items {
+  display: inline-block;
+  margin-right: 24px; }
+  .practo_GlobalNavigation .navbar .nav-items.hover-dark a {
+    color: #4A4A4A; }
+  .practo_GlobalNavigation .navbar .nav-items.hover-dark:hover a {
+    color: #3b99d9; }
+  .practo_GlobalNavigation .navbar .nav-items:last-child {
+    margin-right: 0px; }
+  .practo_GlobalNavigation .navbar .nav-items .user_email_top {
+    width: 69px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #3b99d9;
+    cursor: pointer;
+    white-space: nowrap;
+    text-transform: capitalize; }
+  .practo_GlobalNavigation .navbar .nav-items .downarrow {
+    background-position: -330px -104px;
+    width: 23px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 5px 0 0;
+    margin: 0 auto;
+    vertical-align: middle; }
+  .practo_GlobalNavigation .navbar .nav-items a {
+    padding: 5px 8px;
+    display: inline-block;
+    font-size: 12px;
+    font-size: calculateRem(12px);
+    line-height: 16px;
+    line-height: calculateRem(16px);
+    letter-spacing: -0.2px;
+    letter-spacing: calculateRem(-0.2px);
+    text-decoration: none;
+    color: #3b99d9; }
+
+.practo_GlobalNavigation .navbar.healthfeed .nav-mid {
+  width: 45%; }
+
+.practo_GlobalNavigation .navbar .dropdown-toggle {
+  position: relative;
+  cursor: pointer; }
+  .practo_GlobalNavigation .navbar .dropdown-toggle .down-arrow {
+    margin: 0 5px;
+    color: white; }
+
+.practo_GlobalNavigation .navbar .nav-dropdown {
+  cursor: auto;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffffff;
+  color: #4A4A4A;
+  padding: 18px 0;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 260px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18); }
+  .practo_GlobalNavigation .navbar .nav-dropdown a {
+    text-decoration: none;
+    color: inherit; }
+  .practo_GlobalNavigation .navbar .nav-dropdown.active-state {
+    height: auto;
+    z-index: 101;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    -webkit-transition: height 0.175s ease-out;
+    -moz-transition: height 0.175s ease-out;
+    -ms-transition: height 0.175s ease-out;
+    -o-transition: height 0.175s ease-out;
+    transition: height 0.175s ease-out; }
+  .practo_GlobalNavigation .navbar .nav-dropdown.close-state {
+    z-index: -1;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out; }
+
+.practo_GlobalNavigation .navbar .u-info {
+  margin: 8px 8px 8px 18px;
+  padding: 0 18px; }
+  .practo_GlobalNavigation .navbar .u-info .profile-img {
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    vertical-align: middle; }
+
+.practo_GlobalNavigation .navbar .u-default {
+  height: 70px;
+  width: 70px;
+  display: block;
+  background-position: -365px -420px; }
+
+.practo_GlobalNavigation .navbar .u-name {
+  margin: 12px 0 12px 8px;
+  display: inline-block;
+  width: 115px;
+  vertical-align: top;
+  font-size: 13px;
+  font-size: calculateRem(13px);
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  letter-spacing: calculateRem(0.5px); }
+  .practo_GlobalNavigation .navbar .u-name a {
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    word-wrap: break-word;
+    width: 100px;
+    display: block; }
+    .practo_GlobalNavigation .navbar .u-name a.link {
+      margin: 12px 0;
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #3b99d9; }
+      .practo_GlobalNavigation .navbar .u-name a.link:hover {
+        color: #3b99d9; }
+  .practo_GlobalNavigation .navbar .u-name .user_name {
+    padding: 0 0 10px;
+    width: 75%;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 16px; }
+  .practo_GlobalNavigation .navbar .u-name .number {
+    margin: 5px 0;
+    font-weight: normal;
+    opacity: 0.7;
+    font-size: 14px; }
+
+.practo_GlobalNavigation .navbar .u-d-item {
+  font-size: 12px;
+  font-size: calculateRem(12px);
+  letter-spacing: 0.3px;
+  letter-spacing: calculateRem(0.3px);
+  padding: 0; }
+  .practo_GlobalNavigation .navbar .u-d-item.selected a {
+    color: #3b99d9; }
+  .practo_GlobalNavigation .navbar .u-d-item:hover {
+    cursor: pointer;
+    background-color: #f4f4f4; }
+  .practo_GlobalNavigation .navbar .u-d-item a {
+    padding: 12px;
+    padding-left: 36px;
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit; }
+  .practo_GlobalNavigation .navbar .u-d-item.seperator {
+    margin: 15px 18px;
+    padding: 0;
+    border-top: 1px solid #eaeaea; }
+
+.practo_GlobalNavigation .navbar .sprite {
+  background: url(../images/sprite.svg) no-repeat; }
+
+.practo_GlobalNavigation .navbar .practo_logo {
+  height: 26px;
+  width: 90px;
+  vertical-align: middle;
+  display: inline-block;
+  background-position: -225px -169px; }
+
+.practo_GlobalNavigation .navbar .healthfeed_logo {
+  margin-left: 5px;
+  width: 108px;
+  background-position: -228px -210px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 26px; }
+
+.practo_GlobalNavigation .navbar .consult_logo {
+  margin-left: 5px;
+  width: 88px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 26px;
+  background-position: -228px -245px; }
+
+.practo_GlobalNavigation .navbar .city_selector {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 200;
+  white-space: nowrap;
+  text-align: right; }
+
+.practo_GlobalNavigation .navbar .hamburger {
+  background-position: -65px -269px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px; }
+  .practo_GlobalNavigation .navbar .hamburger:hover {
+    cursor: pointer;
+    background-position: -15px -269px; }
+
+.practo_GlobalNavigation .navbar .hamburger.close-menu {
+  background-position: -65px -335px; }
+  .practo_GlobalNavigation .navbar .hamburger.close-menu:hover {
+    background-position: -16px -335px;
+    cursor: pointer; }
+
+.practo_GlobalNavigation .navbar .isearch.sprite {
+  background-position: -17px -26px;
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: 3px; }
+
+.practo_GlobalNavigation .navbar .icancel.sprite {
+  background-position: -65px -335px;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  vertical-align: middle; }
+  .practo_GlobalNavigation .navbar .icancel.sprite:hover {
+    background-position: -16px -335px;
+    cursor: pointer; }
+
+.practo_GlobalNavigation .navbar .iupdate.sprite {
+  background-position: -65px -300px;
+  width: 20px;
+  height: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-top: 4px; }
+  .practo_GlobalNavigation .navbar .iupdate.sprite:hover {
+    background-position: -16px -300px;
+    cursor: pointer; }
+
+.practo_GlobalNavigation .navbar .back_link.sprite {
+  background-position: -65px -373px;
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+  vertical-align: middle; }
+  .practo_GlobalNavigation .navbar .back_link.sprite:hover {
+    background-position: -15px -373px;
+    cursor: pointer; }
+
+.practo_GlobalNavigation .navbar .iuser {
+  background-position: -218px -103px;
+  width: 32px;
+  height: 30px;
+  display: inline-block;
+  padding: 0 5px 0 0;
+  margin: 0 auto;
+  vertical-align: middle; }
+  .practo_GlobalNavigation .navbar .iuser.loggedin {
+    background-position: -262px -103px; }
+
+.practo_GlobalNavigation .navbar .user.active-state::after {
+  content: "";
+  right: 10%;
+  position: absolute;
+  margin-bottom: -10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -1px;
+  border-bottom: 7px solid #fff;
+  z-index: 300; }
+
+.practo_GlobalNavigation .navbar .user.active-state::before {
+  content: "";
+  right: 10%;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: -10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.12);
+  z-index: 300; }
+
+.practo_GlobalNavigation .navbar .overlay_layer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 56px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.125s ease-in;
+  -webkit-transition: all 0.125s ease-in;
+  -moz-transition: all 0.125s ease-in;
+  -o-transition: all 0.125s ease-in;
+  -ms-transition: all 0.125s ease-in; }
+  .practo_GlobalNavigation .navbar .overlay_layer.show {
+    visibility: visible;
+    opacity: 1; }
+
+.practo_GlobalNavigation .navbar .overlay .navlist {
+  background-color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  min-height: auto;
+  width: 100%; }
+
+.practo_GlobalNavigation .navbar .navlist-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px 0 47px; }
+
+.practo_GlobalNavigation .navbar.consult .navlist-wrap {
+  max-width: 100%; }
+
+.practo_GlobalNavigation .navbar.consult .navlink.seperator {
+  max-width: 100% !important; }
+
+.practo_GlobalNavigation .navbar.desktop .overlay {
+  position: fixed;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 0;
+  z-index: 1000;
+  -webkit-transition: height 0.3s ease-in-out 0s;
+  -moz-transition: height 0.3s ease-in-out 0s;
+  -o-transition: height 0.3s ease-in-out 0s;
+  transition: height 0.3s ease-in-out 0s;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18); }
+  .practo_GlobalNavigation .navbar.desktop .overlay.active {
+    -webkit-box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.07);
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.07); }
+
+.practo_GlobalNavigation .navbar.mobile .overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 303px;
+  top: 56px;
+  width: 80%;
+  max-width: 600px;
+  height: 100%;
+  z-index: 1000;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transition: transform 0.1s ease-in;
+  -webkit-transition: -webkit-transform 0.125s ease-in;
+  -moz-transition: -moz-transform 0.125s ease-in;
+  -o-transition: -o-transform 0.125s ease-in;
+  -ms-transition: -ms-transform 0.125s ease-in;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18); }
+  .practo_GlobalNavigation .navbar.mobile .overlay.active {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0); }
+
+.practo_GlobalNavigation .navbar .navlist {
+  position: relative; }
+  .practo_GlobalNavigation .navbar .navlist a {
+    color: #4A4A4A;
+    display: block;
+    padding: 25px 24px 25px 7px;
+    height: 100%;
+    clear: both;
+    position: relative;
+    cursor: pointer; }
+  .practo_GlobalNavigation .navbar .navlist .navlink {
+    margin: 0 5px 0 0;
+    max-width: 32%;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    /* icons */ }
+    .practo_GlobalNavigation .navbar .navlist .navlink.wider {
+      max-width: 32%; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected:hover {
+      background: none; }
+      .practo_GlobalNavigation .navbar .navlist .navlink.selected:hover:hover div:last-child {
+        opacity: 0.6; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.last {
+      height: auto; }
+      .practo_GlobalNavigation .navbar .navlist .navlink.last a {
+        padding: 25px 24px 25px 7px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+      margin: 0 20px 0 0; }
+    .practo_GlobalNavigation .navbar .navlist .navlink div:first-child {
+      font-size: 16px;
+      line-height: 0.88; }
+    .practo_GlobalNavigation .navbar .navlist .navlink div:last-child {
+      font-size: 12px;
+      color: #4A4A4A;
+      opacity: 0.6;
+      word-wrap: break-word;
+      padding: 5px 0 0 40px;
+      line-height: 1.33; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.seperator {
+      border-top: 1px solid rgba(151, 151, 151, 0.2);
+      display: block;
+      clear: both;
+      width: 100%;
+      padding: 0;
+      height: 1px;
+      min-height: 1px;
+      float: none;
+      margin: 0 auto;
+      max-width: 1280px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover {
+      background: rgba(244, 244, 244, 0.48); }
+      .practo_GlobalNavigation .navbar .navlist .navlink:hover div:last-child {
+        opacity: 1; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected > a,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover > a {
+      color: #3b99d9; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.search,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.search {
+      background-position: -17px -25px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.search {
+      background-position: -67px -25px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.consult,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.consult {
+      background-position: -15px -65px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.consult {
+      background-position: -65px -65px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.order,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.order {
+      background-position: -223px -460px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.order {
+      background-position: -263px -460px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.healthfeed,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.healthfeed {
+      background-position: -16px -108px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.healthfeed {
+      background-position: -66px -108px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.practodrive {
+      background-position: -66px -518px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.for_doctors,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.for_doctors {
+      background-position: -15px -150px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.for_doctors {
+      background-position: -65px -150px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.help,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.help {
+      background-position: -15px -190px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.help {
+      background-position: -65px -190px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.support,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.support {
+      background-position: -14px -230px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.support {
+      background-position: -65px -230px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.mandroid {
+      background-position: -223px -28px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.mandroid,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.mandroid {
+      background-position: -264px -28px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a i.mios {
+      background-position: -223px -62px; }
+    .practo_GlobalNavigation .navbar .navlist .navlink.selected a i.mios,
+    .practo_GlobalNavigation .navbar .navlist .navlink:hover a i.mios {
+      background-position: -265px -62px; }
+
+.practo_GlobalNavigation .navbar.id .navlink,
+.practo_GlobalNavigation .navbar.pt .navlink {
+  height: 141px; }
+
+.practo_GlobalNavigation .navbar.en .team {
+  bottom: 24px; }
+
+@media only screen and (max-width: 800px) {
+  .push-down-body-desktop {
+    padding-top: inherit; }
+  .practo_GlobalNavigation .navbar {
+    /* undo hover states on mobile */ }
+    .practo_GlobalNavigation .navbar.desktop {
+      display: none !important; }
+    .practo_GlobalNavigation .navbar.mobile {
+      display: block !important; }
+      .practo_GlobalNavigation .navbar.mobile .wrapper {
+        box-sizing: border-box;
+        padding: 0 24px; }
+      .practo_GlobalNavigation .navbar.mobile .overlay .navlist {
+        min-height: 100%; }
+      .practo_GlobalNavigation .navbar.mobile .navlink {
+        width: 100%;
+        clear: both;
+        display: block;
+        padding: 0 24px;
+        max-width: 100%;
+        margin: 0;
+        height: auto; }
+        .practo_GlobalNavigation .navbar.mobile .navlink.seperator {
+          margin: 5px 0;
+          width: 100%; }
+        .practo_GlobalNavigation .navbar.mobile .navlink.selected {
+          color: #3b99d9; }
+      .practo_GlobalNavigation .navbar.mobile .nav-items a {
+        padding: 0; }
+      .practo_GlobalNavigation .navbar.mobile .nav-items .downarrow {
+        color: #3b99d9; }
+      .practo_GlobalNavigation .navbar.mobile .user.active-state::after {
+        bottom: 1px; }
+      .practo_GlobalNavigation .navbar.mobile .user.active-state::before {
+        bottom: 2px; }
+      .practo_GlobalNavigation .navbar.mobile .u-d.nav-dropdown.active-state {
+        position: absolute;
+        right: 0;
+        width: 270px;
+        box-sizing: border-box;
+        padding: 0;
+        top: 42px; }
+      .practo_GlobalNavigation .navbar.mobile .list {
+        display: none;
+        position: absolute;
+        background: #fff;
+        z-index: 200;
+        width: 100%; }
+        .practo_GlobalNavigation .navbar.mobile .list .navlink a {
+          padding: 15px 25px; }
+    .practo_GlobalNavigation .navbar .nav-left {
+      padding: 0;
+      margin: 0;
+      width: auto;
+      margin-top: 7px; }
+      .practo_GlobalNavigation .navbar .nav-left .hamburger {
+        margin-right: 24px; }
+      .practo_GlobalNavigation .navbar .nav-left .practo_logo {
+        width: 66px;
+        height: 17px;
+        background-position: -436px -176px; }
+      .practo_GlobalNavigation .navbar .nav-left .consult_logo {
+        width: 63px;
+        height: 17px;
+        margin-top: -8px;
+        margin-left: 0;
+        background-position: -438px -239px; }
+      .practo_GlobalNavigation .navbar .nav-left .healthfeed_logo {
+        width: 82px;
+        height: 15px;
+        margin-top: -1px;
+        margin-left: 0;
+        background-position: -437px -211px; }
+    .practo_GlobalNavigation .navbar .nav-mid {
+      width: 0; }
+    .practo_GlobalNavigation .navbar .nav-right {
+      width: auto;
+      max-width: 40%;
+      float: right;
+      padding: 0;
+      margin: 3px 0 0 0; }
+      .practo_GlobalNavigation .navbar .nav-right a.link {
+        text-align: right; }
+      .practo_GlobalNavigation .navbar .nav-right div {
+        float: left;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right; }
+    .practo_GlobalNavigation .navbar .navbar .overlay {
+      top: 0px; }
+    .practo_GlobalNavigation .navbar .u-name {
+      width: 50%; }
+      .practo_GlobalNavigation .navbar .u-name a {
+        width: 100%; }
+    .practo_GlobalNavigation .navbar .u-info {
+      margin: 24px 0;
+      padding: 0; }
+      .practo_GlobalNavigation .navbar .u-info .profile-wrap {
+        padding: 0 24px; }
+      .practo_GlobalNavigation .navbar .u-info .navlink {
+        margin: 0;
+        padding: 0; }
+        .practo_GlobalNavigation .navbar .u-info .navlink a {
+          margin: 15px auto;
+          padding: 10px 10px 10px 28px;
+          font-size: 12px;
+          display: block; }
+        .practo_GlobalNavigation .navbar .u-info .navlink:hover {
+          background-color: #f4f4f4; }
+        .practo_GlobalNavigation .navbar .u-info .navlink.seperator {
+          margin: 10px 10px 10px 28px;
+          width: 85%;
+          padding: 0;
+          border-top: 1px solid #eaeaea; }
+      .practo_GlobalNavigation .navbar .u-info .logout {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.14;
+        color: #4A4A4A; }
+    .practo_GlobalNavigation .navbar .navlist .navlink a {
+      padding: 15px 0;
+      height: 100%; }
+    .practo_GlobalNavigation .navbar .navlist .navlink:focus {
+      background: #f4f4f4;
+      outline: none;
+      border: none; }
+      .practo_GlobalNavigation .navbar .navlist .navlink:focus a {
+        background: #f4f4f4;
+        outline: none;
+        border: none; }
+    .practo_GlobalNavigation .navbar .iupdate.sprite, .practo_GlobalNavigation .navbar:focus, .practo_GlobalNavigation .navbar:hover {
+      background-position: -65px -300px !important; }
+    .practo_GlobalNavigation .navbar .back_link.sprite, .practo_GlobalNavigation .navbar:focus, .practo_GlobalNavigation .navbar:hover {
+      background-position: -65px -373px !important; }
+    .practo_GlobalNavigation .navbar .icancel.sprite, .practo_GlobalNavigation .navbar:focus, .practo_GlobalNavigation .navbar:hover {
+      background-position: -65px -335px !important; }
+    .practo_GlobalNavigation .navbar .hamburger.close-menu, .practo_GlobalNavigation .navbar:focus, .practo_GlobalNavigation .navbar:hover {
+      background-position: -65px -335px !important; }
+    .practo_GlobalNavigation .navbar .hamburger, .practo_GlobalNavigation .navbar:focus, .practo_GlobalNavigation .navbar:hover {
+      background-position: -65px -269px !important; } }
+
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+  .practo_GlobalNavigation .navbar .navlist .navlink {
+    min-height: 132px; }
+  .practo_GlobalNavigation .navbar.desktop .overlay.active {
+    height: 350px !important; } }
+
+@media only screen and (min-width: 981px) and (max-width: 1200px) {
+  .practo_GlobalNavigation .navbar .nav-left {
+    width: 20%; }
+  .practo_GlobalNavigation .navbar.healthfeed .nav-left, .practo_GlobalNavigation .navbar.order .nav-left, .practo_GlobalNavigation .navbar.consult .nav-left {
+    width: 300px; } }
+
+@media only screen and (min-width: 981px) and (max-width: 1131px) {
+  .practo_GlobalNavigation .navbar .nav-mid {
+    width: 46%; }
+  .practo_GlobalNavigation .navbar.healthfeed .nav-mid {
+    width: 38%; } }
+
+@media only screen and (max-width: 980px) {
+  .practo_GlobalNavigation .navbar .nav-mid {
+    display: none; } }
+
+@media only screen and (min-width: 801px) {
+  .practo_GlobalNavigation .navbar.mobile {
+    display: none !important; }
+  .practo_GlobalNavigation .navbar.desktop {
+    display: block !important; } }
+
+@media only screen and (max-width: 500px) {
+  .practo_GlobalNavigation .navbar .overlay {
+    width: 85%; } }
+
+@media screen and (max-width: 1015px) {
+  .team {
+    display: none; } }
